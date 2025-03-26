@@ -1,0 +1,11 @@
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\bin\Debug\Crud WF AdoNet.exe.config
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\bin\Debug\Crud WF AdoNet.exe
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\bin\Debug\Crud WF AdoNet.pdb
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\obj\Debug\Crud WF AdoNet.csproj.AssemblyReference.cache
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\obj\Debug\Crud_WF_AdoNet.Form1.resources
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\obj\Debug\Crud_WF_AdoNet.Properties.Resources.resources
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\obj\Debug\Crud WF AdoNet.csproj.GenerateResource.cache
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\obj\Debug\Crud WF AdoNet.csproj.CoreCompileInputs.cache
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\obj\Debug\Crud WF AdoNet.exe
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\obj\Debug\Crud WF AdoNet.pdb
+C:\Users\JOEL\source\repos\Crud WF AdoNet\Crud WF AdoNet\obj\Debug\Crud_WF_AdoNet.FrmNuevo.resources
