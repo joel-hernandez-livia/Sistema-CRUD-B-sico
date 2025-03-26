@@ -64,5 +64,24 @@ namespace Crud_WF_AdoNet
                 Refresh();
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int? Id = GetId();
+            try
+            {
+                if (Id != null)
+                {
+                    PeopleDB oPeopleDB = new PeopleDB();
+                    oPeopleDB.Delete((int)Id);
+                    Refresh();
+                }
+            }
+            catch(Exception ex) 
+            {
+                MessageBox.Show("Error al eliminar: "+ex.Message);
+            }
+            
+        }
     }
 }

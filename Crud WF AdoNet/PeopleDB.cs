@@ -148,7 +148,31 @@ namespace Crud_WF_AdoNet
 
         }
 
+        public void Delete(int Id)
+        {
+            string query = "delete from people " +
+                " where id=@id";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(query, connection);
 
+                cmd.Parameters.AddWithValue("@id", Id);
+
+                try
+                {
+                    connection.Open();
+                    cmd.ExecuteNonQuery();
+
+                    connection.Close();
+
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error en la BD " + ex.Message);
+                }
+            }
+
+        }
 
 
     }
