@@ -19,6 +19,8 @@ namespace Crud_WF_AdoNet
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
             Refresh();
         }
 
@@ -82,6 +84,13 @@ namespace Crud_WF_AdoNet
                 MessageBox.Show("Error al eliminar: "+ex.Message);
             }
             
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+
+
         }
     }
 }
