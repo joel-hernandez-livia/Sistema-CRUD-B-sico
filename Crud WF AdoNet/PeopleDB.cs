@@ -10,21 +10,27 @@ namespace Crud_WF_AdoNet
 {
     public class PeopleDB
     {
-        private string connectionString
-            = "Data Source=DESKTOP-FUU6UJ3\\SQLEXPRESS;" +
-            "Initial Catalog=CrudWinForm;Integrated Security=True";
+ 
+        private string connectionString = "Server=localhost\\SQLEXPRESS;Database=CrudWinForm;Integrated Security=True;";
+
 
         public bool Ok()
+         {
+             try
+             {
+                 SqlConnection conn = new SqlConnection(connectionString);
+                 conn.Open();
+             }
+             catch {
+                 return false;
+             }
+             return true;
+         }
+
+        public PeopleDB()
         {
-            try
-            {
-                SqlConnection conn = new SqlConnection(connectionString);
-                conn.Open();
-            }
-            catch {
-                return false;
-            }
-            return true;
+            AppDomain.CurrentDomain.SetData("DataDirectory",
+                System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "BD"));
         }
 
         public List<People> Get()
